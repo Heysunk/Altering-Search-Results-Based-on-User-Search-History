@@ -5,7 +5,7 @@ es = Elasticsearch()
 profile = dict()
 res = dict()
 
-userID = 128    # hardcoded userID (Can be modified to pull it from input/file/somewhere
+userID = 129    # hardcoded userID (Can be modified to pull it from input/file/somewhere
 DECAY_FACTOR = -0.15 # factor which controls freshness of results(how much each result should lose in value)
 AUTHOR_WEIGHT = 1.3 # how much the fact that the same author has been clicked on before should impact the search
 RETURNED_RESULTS = 10000 # how many results ES should return

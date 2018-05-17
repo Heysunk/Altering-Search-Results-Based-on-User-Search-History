@@ -239,3 +239,36 @@ Caused by: org.elasticsearch.search.query.QueryPhaseExecutionException: Result w
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[2018-05-17T16:38:48,838][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-17T16:38:48,898][INFO ][o.e.e.NodeEnvironment    ] [p5foedU] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [62.5gb], net total_space [123.3gb], types [ext4]
+[2018-05-17T16:38:48,898][INFO ][o.e.e.NodeEnvironment    ] [p5foedU] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-05-17T16:38:48,920][INFO ][o.e.n.Node               ] node name [p5foedU] derived from node ID [p5foedUETUitLE_7QR2XNg]; set [node.name] to override
+[2018-05-17T16:38:48,920][INFO ][o.e.n.Node               ] version[6.2.4], pid[14573], build[ccec39f/2018-04-12T20:37:28.497551Z], OS[Linux/4.13.0-39-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-17T16:38:48,920][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.37byuiWy, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/heysunk/Documents/DD2476/public_git_project/project/elasticsearch/elasticsearch-6.2.4, -Des.path.conf=/home/heysunk/Documents/DD2476/public_git_project/project/elasticsearch/elasticsearch-6.2.4/config]
+[2018-05-17T16:38:49,435][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [aggs-matrix-stats]
+[2018-05-17T16:38:49,435][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [analysis-common]
+[2018-05-17T16:38:49,435][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [ingest-common]
+[2018-05-17T16:38:49,435][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [lang-expression]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [lang-mustache]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [lang-painless]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [mapper-extras]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [parent-join]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [percolator]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [rank-eval]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [reindex]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [repository-url]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [transport-netty4]
+[2018-05-17T16:38:49,436][INFO ][o.e.p.PluginsService     ] [p5foedU] loaded module [tribe]
+[2018-05-17T16:38:49,437][INFO ][o.e.p.PluginsService     ] [p5foedU] no plugins loaded
+[2018-05-17T16:38:51,497][INFO ][o.e.d.DiscoveryModule    ] [p5foedU] using discovery type [zen]
+[2018-05-17T16:38:51,955][INFO ][o.e.n.Node               ] initialized
+[2018-05-17T16:38:51,955][INFO ][o.e.n.Node               ] [p5foedU] starting ...
+[2018-05-17T16:38:52,080][INFO ][o.e.t.TransportService   ] [p5foedU] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-17T16:38:52,094][WARN ][o.e.b.BootstrapChecks    ] [p5foedU] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-17T16:38:52,094][WARN ][o.e.b.BootstrapChecks    ] [p5foedU] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-17T16:38:55,185][INFO ][o.e.c.s.MasterService    ] [p5foedU] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {p5foedU}{p5foedUETUitLE_7QR2XNg}{dDQMOH1AQN6MPMV-18mQGw}{127.0.0.1}{127.0.0.1:9300}
+[2018-05-17T16:38:55,190][INFO ][o.e.c.s.ClusterApplierService] [p5foedU] new_master {p5foedU}{p5foedUETUitLE_7QR2XNg}{dDQMOH1AQN6MPMV-18mQGw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {p5foedU}{p5foedUETUitLE_7QR2XNg}{dDQMOH1AQN6MPMV-18mQGw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-05-17T16:38:55,205][INFO ][o.e.h.n.Netty4HttpServerTransport] [p5foedU] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-17T16:38:55,206][INFO ][o.e.n.Node               ] [p5foedU] started
+[2018-05-17T16:38:55,363][INFO ][o.e.g.GatewayService     ] [p5foedU] recovered [3] indices into cluster_state
+[2018-05-17T16:38:55,933][INFO ][o.e.c.r.a.AllocationService] [p5foedU] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test-index][2]] ...]).
