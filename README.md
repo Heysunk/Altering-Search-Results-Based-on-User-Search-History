@@ -23,6 +23,6 @@ There are features reliant on X11 running on the machine and will probably resul
 ## Indexing instructions
 If you want to index your own terms on twitter you can pipe any tokens in to indexer.py.
 
-Using indexer.py requires you to set up your own keys in a file called twitterKeys.
+_Using indexer.py requires you to set up your own keys in a file called twitterKeys._
 
 
