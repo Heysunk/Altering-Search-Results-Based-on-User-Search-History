@@ -1,0 +1,612 @@
+{
+    "took":12,
+    "timed_out":false,
+    "_shards": {
+        "total": 5, "successful": 5, "skipped": 0, "failed": 0
+    }
+    ,
+    "hits": {
+        "total":221,
+        "max_score":6.600905,
+        "hits":[ {
+            "_shard":"[twitter][4]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"994238888800436224",
+            "_score":6.600905,
+            "_source": {
+                "datestamp": "2018-05-09T15:33:17", "text": "@NameRedacted7 I still remember my first atari game. Asteroids man!!!!!!!!!!! My first video game ever was \"Pong\". Gaaaawwwwwd I'm old!", "author": "Stinging Locust"
+            }
+            ,
+            "_explanation": {
+                "value":6.600905,
+                "description":"weight(text:game in 431) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.600905,
+                    "description":"score(doc=431,freq=2.0 = termFreq=2.0\n), product of:",
+                    "details":[ {
+                        "value":4.4415226,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 36.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3098.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.4861807,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 2.0, "description": "termFreq=2.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.24758, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 20.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][4]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"992397319382487042",
+            "_score":6.3814425,
+            "_source": {
+                "datestamp": "2018-05-04T13:35:33", "text": "[Icon Game] Stacy's Cocktails\nhttps://t.co/m9BjLE3vTY", "author": "𝓓𝓻𝒆𝓪𝓶𝔂 ★"
+            }
+            ,
+            "_explanation": {
+                "value":6.3814425,
+                "description":"weight(text:game in 1579) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.3814425,
+                    "description":"score(doc=1579,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.4415226,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 36.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3098.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.4367691,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.24758, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 7.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][4]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"992397494196858880",
+            "_score":6.246693,
+            "_source": {
+                "datestamp": "2018-05-04T13:36:15", "text": "[Icon Game] Guy's Stolen Bikes\nhttps://t.co/49XEQkPpYo", "author": "𝓓𝓻𝒆𝓪𝓶𝔂 ★"
+            }
+            ,
+            "_explanation": {
+                "value":6.2466927,
+                "description":"weight(text:game in 1578) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.2466927,
+                    "description":"score(doc=1578,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.4415226,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 36.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3098.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.4064305,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.24758, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 8.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][3]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"993986664161783808",
+            "_score":6.232465,
+            "_source": {
+                "datestamp": "2018-05-08T22:51:02", "text": "Tim C - Finesse Game [Unsigned Artist] https://t.co/I7D05xwqUT", "author": "Souf"
+            }
+            ,
+            "_explanation": {
+                "value":6.232465,
+                "description":"weight(text:game in 944) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.232465,
+                    "description":"score(doc=944,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.5161014,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 34.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3155.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3800542,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.537876, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 9.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][3]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"992398575341621248",
+            "_score":6.232465,
+            "_source": {
+                "datestamp": "2018-05-04T13:40:32", "text": "[Icon Game] The Smurfs vs Gargamel\nhttps://t.co/gkLOYws0o2", "author": "𝓓𝓻𝒆𝓪𝓶𝔂 ★"
+            }
+            ,
+            "_explanation": {
+                "value":6.232465,
+                "description":"weight(text:game in 1675) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.232465,
+                    "description":"score(doc=1675,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.5161014,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 34.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3155.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3800542,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.537876, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 9.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][3]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"994017513397800960",
+            "_score":6.057321,
+            "_source": {
+                "datestamp": "2018-05-09T00:53:37", "text": "@wirrow Hi wirrow I’m sort of an artist and and just switched my major to video game development so I guess I’m gonna be learning some cool video game stuff", "author": "👽 Kaylene 👽"
+            }
+            ,
+            "_explanation": {
+                "value":6.0573206,
+                "description":"weight(text:game in 942) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.0573206,
+                    "description":"score(doc=942,freq=2.0 = termFreq=2.0\n), product of:",
+                    "details":[ {
+                        "value":4.5161014,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 34.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3155.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3412721,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 2.0, "description": "termFreq=2.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.537876, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 30.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][3]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"994018382595801088",
+            "_score":6.0408564,
+            "_source": {
+                "datestamp": "2018-05-09T00:57:05", "text": "@jisunshines i just watched this video of an artist that did a game jam type of thing and she made a whole visual novel type of game in 2 days o_o so i thought well maybe i should look into this ive always wanted to make my own game too!", "author": "winter ❄⛄🌁 @sleepy"
+            }
+            ,
+            "_explanation": {
+                "value":6.040857,
+                "description":"weight(text:game in 941) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":6.040857,
+                    "description":"score(doc=941,freq=3.0 = termFreq=3.0\n), product of:",
+                    "details":[ {
+                        "value":4.5161014,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 34.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3155.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3376265,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 3.0, "description": "termFreq=3.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.537876, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 50.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][2]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"992398746913857538",
+            "_score":5.9936233,
+            "_source": {
+                "datestamp": "2018-05-04T13:41:13", "text": "[Icon Game] Where's The Rainbow?\nhttps://t.co/E2tqpOdWfR", "author": "𝓓𝓻𝒆𝓪𝓶𝔂 ★"
+            }
+            ,
+            "_explanation": {
+                "value":5.9936233,
+                "description":"weight(text:game in 1643) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":5.9936233,
+                    "description":"score(doc=1643,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.253194,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 45.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3199.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.4092053,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.568928, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 8.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][4]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"993187174899040256",
+            "_score":5.993573,
+            "_source": {
+                "datestamp": "2018-05-06T17:54:09", "text": "@Mariners On our way to the game!!! Go Mariners!💙⚾️💙#truetotheblue", "author": "Lori Wambold"
+            }
+            ,
+            "_explanation": {
+                "value":5.9935737,
+                "description":"weight(text:game in 1183) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":5.9935737,
+                    "description":"score(doc=1183,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.4415226,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 36.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3098.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3494412,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.24758, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 10.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ,
+        {
+            "_shard":"[twitter][3]",
+            "_node":"p5foedUETUitLE_7QR2XNg",
+            "_index":"twitter",
+            "_type":"tweet",
+            "_id":"992396246869512192",
+            "_score":5.98698,
+            "_source": {
+                "datestamp": "2018-05-04T13:31:17", "text": "[Icon Game] Minnie &amp; Teddy\nhttps://t.co/wHWnPAZxjw https://t.co/GADXXbsymY", "author": "𝓓𝓻𝒆𝓪𝓶𝔂 ★"
+            }
+            ,
+            "_explanation": {
+                "value":5.98698,
+                "description":"weight(text:game in 1676) [PerFieldSimilarity], result of:",
+                "details":[ {
+                    "value":5.98698,
+                    "description":"score(doc=1676,freq=1.0 = termFreq=1.0\n), product of:",
+                    "details":[ {
+                        "value":4.5161014,
+                        "description":"idf, computed as log(1 + (docCount - docFreq + 0.5) / (docFreq + 0.5)) from:",
+                        "details":[ {
+                            "value": 34.0, "description": "docFreq", "details": []
+                        }
+                        ,
+                        {
+                            "value": 3155.0, "description": "docCount", "details": []
+                        }
+                        ]
+                    }
+                    ,
+                    {
+                        "value":1.3256966,
+                        "description":"tfNorm, computed as (freq * (k1 + 1)) / (freq + k1 * (1 - b + b * fieldLength / avgFieldLength)) from:",
+                        "details":[ {
+                            "value": 1.0, "description": "termFreq=1.0", "details": []
+                        }
+                        ,
+                        {
+                            "value": 1.2, "description": "parameter k1", "details": []
+                        }
+                        ,
+                        {
+                            "value": 0.75, "description": "parameter b", "details": []
+                        }
+                        ,
+                        {
+                            "value": 27.537876, "description": "avgFieldLength", "details": []
+                        }
+                        ,
+                        {
+                            "value": 11.0, "description": "fieldLength", "details": []
+                        }
+                        ]
+                    }
+                    ]
+                }
+                ]
+            }
+        }
+        ]
+    }
+}

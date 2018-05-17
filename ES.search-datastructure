@@ -1,0 +1,46 @@
+{
+    u'hits': {
+        u'hits': [ {
+            u'_score': 6.9438715,
+            u'_type': u'tweet',
+            u'_id': u'994238888800436224',
+            u'_source': {
+                u'datestamp': u'2018-05-09T15:33:17', u'text': u'@NameRedacted7 I still remember my first atari game. Asteroids man!!!!!!!!!!! My first video game ever was "Pong". Gaaaawwwwwd I\'m old!', u'author': u'Stinging Locust'
+            }
+            ,
+            u'_index': u'twitter'
+        }
+        ,
+        {
+            u'_score': 6.7159953,
+            u'_type': u'tweet',
+            u'_id': u'992397319382487042',
+            u'_source': {
+                u'datestamp': u'2018-05-04T13:35:33', u'text': u"[Icon Game] Stacy's Cocktails\nhttps://t.co/m9BjLE3vTY", u'author': u'\U0001d4d3\U0001d4fb\U0001d486\U0001d4ea\U0001d4f6\U0001d502 \u2605'
+            }
+            ,
+            u'_index': u'twitter'
+        }
+        ,
+        {
+            u'_score': 6.6460557,
+            u'_type': u'tweet',
+            u'_id': u'993465741100961793',
+            u'_source': {
+                u'datestamp': u'Mon May 07 12:21:05 +0000 2018', u'text': u"FREE Worldwide Trending iPhone Puzzle Game #LogicDots2 is Sudoku + Battleship = INCREDIBLE!!! It's FREE - download &amp; play now! https://t.co/Ho6jHFHPGD #game https://t.co/XXstu0CIqc", u'author': u'Ramanathan Iyer'
+            }
+            ,
+            u'_index': u'twitter'
+        }
+        ],
+        u'total': 362,
+        u'max_score': 6.9438715
+    }
+    ,
+    u'_shards': {
+        u'successful': 5, u'failed': 0, u'skipped': 0, u'total': 5
+    }
+    ,
+    u'took': 3,
+    u'timed_out': False
+}
