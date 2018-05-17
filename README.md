@@ -1,5 +1,5 @@
 # PersonalizedElasticSearch
-A search engine using previous results to augment future results.
+A search engine using search history to augment future search results.
 
 
 # Installation requirements
