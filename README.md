@@ -11,7 +11,6 @@ There are features reliant on X11 running on the machine and will probably resul
 
 
 * Install python2.7
-* Install [tweepy](https://github.com/tweepy/tweepy) via `pip install tweepy`
 * Install [Elasticsearch-py](https://github.com/tweepy/tweepy) via `pip install elasticsearch`
 * Install a recent version of Java
 
@@ -21,8 +20,13 @@ There are features reliant on X11 running on the machine and will probably resul
 * Start search.py
 
 ## Indexing instructions
-If you want to index your own terms on twitter you can pipe any tokens in to indexer.py.
+If you want to index your own terms on twitter you first have to install [tweepy](https://github.com/tweepy/tweepy) via `pip install tweepy`
+Thereafter you have to set up a file called twitterKeys in the format: 
+`consumer_key
+consumer_secret
+access_token
+access_token_secret`. Each string should contain only the key itself and a each string should be on a separate line
 
-__Using indexer.py requires you to set up your own keys in a file called twitterKeys.__
+Thereafter you can pipe any tokens in to indexer.py and they will be indexed by your ES.
 
 
