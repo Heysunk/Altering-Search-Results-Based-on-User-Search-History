@@ -1,4 +1,4 @@
-# PersonalizedElasticSearch
+# Altering Search Results Based on User Search History
 A search engine using search history to augment future search results.
 
 
